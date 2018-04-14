@@ -1,0 +1,1705 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'OpenSan';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Open_Sans/OpenSans-Light.ttf');
+
+}
+
+
+
+body{padding:0; margin:0;}
+a, a:visited{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	color:#91aef7;
+}
+
+thead{
+	background-color:#eee;
+	text-align:center;
+	font-weight:bold;
+}
+
+form ol{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	color:red;
+	font-weight:bold;
+}
+#logo{
+  margin-top:15px;
+}
+.loginmenu {margin-top: -15px;}
+.lowermenu {margin-top: -5px;}
+/*.lowermenu-member {margin-top: 53px;}*/
+.bg_uppermenu{
+padding:8px 0 5px 0;
+}
+.bg_menu{
+height:100px;
+}
+.bg_news{}
+.bg_sliderwrap{}
+.bg_slider {}
+.bg_video {background:#c2d2fc;border:1px solid #fff;padding:5px;-webkit-box-shadow: 0px 0px 5px 0px #555;;
+-moz-box-shadow:    0px 0px 5px 0px #555;
+box-shadow:         0px 0px 5px 0px #555;width:350px;float:right;}
+.bg_bank {background:#c2d2fc;border:1px solid #fff;padding:5px;-webkit-box-shadow: 0px 0px 5px 0px #555;
+-moz-box-shadow:    0px 0px 5px 0px #555;
+box-shadow:         0px 0px 5px 0px #555;width:350px;float:right;}
+#body_container_member{
+	width:1000px;
+	margin:0 auto;
+
+}
+.pasaraboxwrap{background:#fff;margin-top:10px;}
+.pasaranbox {background:#c2d2fc;border:1px solid #fff;padding:3px;width:25%;float:left;}
+.pasaranbox {background:#c2d2fc;border:1px solid #fff;padding:3px;width:25%;float:left;}
+.pasaranbox_last {background:#c2d2fc;border:1px solid #fff;padding:3px;width:25%;float:right;}
+.content{
+	min-height:516px;
+}
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #036;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+/* result button*/
+
+.bg_sportsbookwrap{
+	height:1000px;
+	background:#fff;padding:5px;border:0px solid red;}
+.bg_resultwrapper{
+	height:503px;
+	background:#fff;padding:0px;border:0px solid red;}
+.bg_wrap{
+	min-height:600px;
+	background:#fff;padding:5px;border:0px solid red;
+}
+
+.resultbox {
+  list-style: none;
+  text-align: center;
+  border:0px solid red;
+  margin:0 auto;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.resultbox li {
+  position: relative;
+  display: inline-block;
+  margin-right: 0px;
+
+}
+.resultbox  img{
+ float:left;
+ margin: 10px 10px 0px 0px;
+}
+.box_result{
+	cursor:pointer; background:#f8f8f8;padding:5px;border-radius:5px; padding:10px;border:1px solid #97acd2;margin: auto;width:190px;margin:8px;}
+.box_result .country{
+background: rgb(133,178,211); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(133,178,211,1) 0%, rgba(184,221,239,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(133,178,211,1) 0%,rgba(184,221,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(133,178,211,1) 0%,rgba(184,221,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85b2d3', endColorstr='#b8ddef',GradientType=0 ); /* IE6-9 */
+padding:4px;border-radius:4px; border:0px solid #cfcfcf; font-weight:bold;font-size:18px;color:#000;text-align:center;}
+.box_result .code{background:none;padding:0px;font-weight:900;font-size:16px;color:#4e70b4;text-align:center;margin-top:10px;}
+.box_result .date{background:none;padding:0px;font-weight:900;font-size:13px;color:#000;text-align:center;}
+.navi {
+  list-style: none;
+  text-align: center;
+  border:0px solid red;
+  margin:0 auto;
+  padding-top:5px;
+}
+
+.navi li {
+  position: relative;
+  display: inline-block;
+  padding:0;
+  margin:0:
+}
+
+.navi li:before {
+  content: "";
+  display: block;
+  border-top: 0px solid #ddd;
+  border-bottom: 0px solid #fff;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+
+.navi span {
+  display: block;
+  background-color: #;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dde1ef), to(#cad6ec));
+  background-image: -webkit-linear-gradient(top, #dde1ef, #cad6ec);
+  background-image: -moz-linear-gradient(top, #dde1ef, #cad6ec);
+  background-image: -ms-linear-gradient(top, #dde1ef, #cad6ec);
+  background-image: -o-linear-gradient(top, #dde1ef, #cad6ec);
+  color: #000;
+  font-weight:bold;
+  font-size:15px;
+  margin: 2px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+
+.navi a:before {
+  content: "";
+  display: block;
+  background: #fff;
+  border-top: 0px solid #ddd;
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  bottom: -18px;
+  right: -18px;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: inset 0px 8px 48px #ddd;
+}
+
+.navi a:hover {
+  text-decoration: none;
+  color: #555;
+  background: #f5f5f5;
+}
+
+#latest_results tr td{
+	border-bottom:1px solid #eee;
+	text-align:center;
+
+	background-color:#828383;
+	color:#ffffff;
+	font-size: 14px;
+}
+
+#deposit_user_details tr td{
+	font-size: 18px;
+}
+
+#deposit_user_details tr td:first-child{
+	width: 150px;
+	font-weight: bold;
+}
+
+#datanomor_topbar{
+text-align:center;
+margin:20px 0px 15px;
+color:black;
+}
+#datanomor_topbar span{
+	padding:10px;
+	background:#eee;
+}
+#datanomor_topbar span:hover{
+	background:lightblue;
+	cursor:pointer;
+}
+#datanomor_topbar .selected{
+	background:lightblue;
+	cursor:pointer;
+}
+.radius_box{
+
+background: #303030;
+outline: 1px solid #0d0c0c;
+color: #fff;
+padding: 8px;
+margin:5px 0px;
+
+}
+
+}
+
+.invoice_row:hover{
+	background:lightblue;
+	cursor:pointer;
+}
+
+#contactus_box
+{
+	clear:both;
+	height:140px;
+}
+.to_register
+{
+	font-weight:normal;
+	color:#fff;
+	padding-right:5px;
+}
+.to_register:hover
+{
+	color:grey;
+	text-decoration:underline;
+}
+#login_captchaText{
+
+	height:37px;
+	width:105px;
+	margin-top:3px;
+	padding:0px;
+	background: rgb(61, 157, 179);
+	border: 1px solid rgb(28, 108, 122);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+/* -------------------------------- Poker -------------------------- */
+.poker_details{
+background:#fff;
+padding:10px;
+}
+.poker_balance{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:10px;
+	color:black;
+}
+
+.gd88_deposit, .gd88_withdrawal{
+	background:#999;
+	padding:10px 20px;
+	margin:10px 0px;
+	margin-top:4px;
+	color:#fff;
+}
+
+.poker_deposit, .poker_withdrawal{
+	background:#6b3d89;
+	padding:10px 20px;
+	margin:10px 0px;
+	margin-top:4px;
+	color:#fff;
+}
+.poker_title{
+	border-bottom:1px solid #999;
+	text-align:center;
+	margin-bottom:0px;
+	color:black;
+}
+.poker_form tbody tr td{
+	font-size:smaller;
+
+}
+
+.center,.left{
+color:black;
+}
+
+
+.casino_deposit, .casino_withdrawal{
+	background:#007d0f;
+	padding:10px 20px;
+	margin:10px 0px;
+	margin-top:4px;
+	color:#fff;
+}
+
+.slots_deposit, .slots_withdrawal{
+	background:#FFCC33;
+	padding:10px 20px;
+	margin:10px 0px;
+	margin-top:4px;
+	color:#000;
+}
+
+/* -------------------------------- logined -------------------------- */
+#logined_box{
+
+	background:#282828;
+	border:1px solid black;
+	border-radius:5px;
+	font-size:10pt;
+	-moz-box-shadow:    inset 0 0 8px #000000;
+	-webkit-box-shadow: inset 0 0 8px #000000;
+	box-shadow:         inset 0 0 8px #000000;
+	height: 78px;
+
+}
+
+#logined_box td.td_container{
+	border-right:1px dotted #fff;
+	padding:0px 6px;
+	height: 75px;
+
+}
+#logined_box td .icon{
+	float:left;
+	padding: 5px 10px 0px 5px;
+
+}
+#logined_box td .balance{
+	color:#fff;
+	font-size:14pt;
+	font-weight:bold
+}
+#logined_box td .discount_label{
+	color:#fff;
+	font-size:smaller;
+	padding: 16px 10px 0px 0px;
+}
+#logined_box td .last_login{
+	color:#fff;
+	font-size:smaller;
+}
+.game_disc_note
+{
+	font-size:smaller;
+	color:red;
+}
+
+/* -------------------------------- sidemenu ----------------------- */
+/* Starter CSS for Flyout Menu */
+#sidemenu {
+
+	padding: 5px;  background: #282828; box-shadow: 3px 4px 2px #000;
+
+}
+#sidemenu ul,
+#sidemenu ul li,
+#sidemenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#sidemenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#sidemenu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+}
+#sidemenu ul li.hover,
+#sidemenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#sidemenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 598;
+  width: 100%;
+}
+#sidemenu ul ul li {
+  float: none;
+}
+#sidemenu ul li:hover > ul {
+  visibility: visible;
+}
+#sidemenu ul ul {
+  top: 0px;
+  left: 99%;
+}
+#sidemenu ul li {
+  float: none;
+}
+#sidemenu ul ul li {
+  font-weight: normal;
+}
+/* Custom CSS Styles */
+#sidemenu {
+  font-family:Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+}
+#sidemenu:before {
+  content: '';
+  display: block;
+}
+#sidemenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#sidemenu a {
+  display: block;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#sidemenu > ul {
+  width: 280px;
+}
+#sidemenu ul ul {
+  width: 280px;
+  box-shadow: -5px 0px 15px 2px black;
+}
+#sidemenu > ul > li > a {
+  color: #ffffff;
+  font-weight:normal;
+}
+#sidemenu > ul > li{
+	background: #282828;
+
+}
+#sidemenu > ul > li.last{
+	border-bottom:none;
+}
+#sidemenu > ul > li > a:hover {
+  color: black;
+}
+#sidemenu > ul > li.active a {
+  background: #1b9bff;
+}
+#sidemenu > ul > li a:hover
+{
+   background: rgba(255,255,255,0.2) url(/sarangtogel/images/menu-left.png) 3px center no-repeat;
+}
+#sidemenu li {
+  position: relative;
+
+}
+#sidemenu ul li.has-sub > a:after {
+
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -6px;
+  content:url(/sarangtogel/images/menu-left2.png) 265px center no-repeat;
+}
+#sidemenu ul li > a:before {
+  content: url(/sarangtogel/images/menu-left.png);
+  position: absolute;
+ left:3px;
+ top:4px;
+
+}
+#sidemenu ul ul >li > a:before {
+  content: none;
+}
+
+#sidemenu ul ul a {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight:normal;
+
+}
+#sidemenu ul ul a:hover {
+  color: #ffffff;
+}
+#sidemenu ul ul li {
+
+  background: #333333;
+
+}
+#sidemenu ul ul li:hover > a {
+  background: rgba(255,255,255,0.2) url(/sarangtogel/images/menu-left.png) 3px center no-repeat;
+  color:black;
+
+}
+
+.unread_memo{
+	color:#fff;
+	font-size:smaller;
+	padding:1px 3px;
+	background:red;
+	border:1px solid red;
+	border-radius:3px;
+	box-shadow: 0px 0px 1px #333;
+}
+/* ----------------------------------- memo -------------------------------------- */
+#memo_table thead tr{
+	background:#999;
+}
+
+.inbox_unread_row{
+	background-color:#CDD3D3;
+	color:black;
+
+}
+
+.inbox_unread_row a{
+color:black;
+}
+
+.inbox_unread_row a:hover{
+color:#F7E691;
+}
+
+
+
+#memo_table tr td{
+	text-align:center;
+}
+.inbox_top_bar{
+background:lightblue;
+border-bottom:1px solid #999;
+padding:3px 5px;
+margin-bottom:10px;
+}
+
+
+
+/* -------------------------------- pasaran box ----------------------------------- */
+
+
+#pasaran tbody tr td{
+	padding:5px 10px;
+	font-size:1.2em;
+	color:#fff;
+}
+#pasaran tbody tr td a{
+	font-weight:normal;
+}
+
+#pasaran_list{
+
+background: #282828;
+}
+
+#pasaran1{
+	padding: 5px;
+	margin-top:5px;
+
+}
+#pasaran1 thead tr td{
+
+
+	background:#303030;
+	border:1px solid black;
+	color:#fff;
+	text-align:center;
+
+
+}
+
+#pasaran1 tbody tr td{
+	padding:5px 10px;
+	border:1px solid black;
+	color:#fff;
+
+}
+#pasaran1 tbody tr td a{
+	font-weight:normal;
+}
+
+
+.actived_country:hover{
+	background: rgba(255,255,255,0.2);
+	cursor:pointer;
+}
+
+#selected_pasaran{
+	background:#00141E;
+	border:1px solid black;
+	border-radius:5px;
+	font-size:10pt;
+	color:#fff;
+	-moz-box-shadow:    inset 0 0 8px #ffffff;
+	-webkit-box-shadow: inset 0 0 8px #ffffff;
+	box-shadow:         inset 0 0 8px #ffffff;
+
+}
+
+#selected_pasaran h2{
+	margin:0px;
+	margin-left:30px;
+	padding:0px;
+	margin-top:10px;
+
+}
+#selected_pasaran div{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	margin-left:30px;
+	font-weight:bold;
+	margin-bottom:10px;
+
+
+}
+#pasaran_index{
+	height:140px;
+}
+#pasaran_index td{
+	height:50px;
+	padding:5px 0px;
+	text-align:center;
+	border:1px solid #ccc;
+	border-radius:2px;
+	box-shadow: 0px 0px 3px #d9feff;
+}
+
+.ip {
+	width:80px;
+	margin:0px auto;
+	height:70px;
+	margin-bottom:5px
+}
+
+.ip img{
+	padding:5px;
+}
+
+.ip2 {
+	width:90px;
+	margin:0px auto;
+	padding:5px;
+}
+.ip:hover, .ip2:hover{
+	cursor:pointer;
+	background:#f7f7f7;
+}
+
+
+
+
+
+/* -------------------------------- Font ----------------------------------- */
+
+.font7{
+	font-size:7pt;
+
+}
+
+.title_h3{
+	text-align:center;
+	color:#336699;
+	margin:0px 0px 5px 0px;
+
+}
+.title_h2{
+margin: 5px 0; border-bottom: 1px solid #36b5f7; padding-bottom: 5px
+}
+
+.font_small{
+	font-size:smaller;
+
+}
+
+/*----------------------New Design------------------------------------*/
+
+body{
+background: black url(/sarangtogel/images/bg.jpg) center top no-repeat;
+height:100%;
+margin: 0;
+padding: 0px 0 0px 0;
+height: 1000px;
+}
+#body_container{
+width: 1000px;
+margin:0 auto;
+
+}
+
+#upper-menu{
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: right;
+padding-bottom:10px;
+
+}
+
+#upper-menu li{
+display:inline-block;
+padding: 0 5px;
+
+}
+
+#txt_code{
+    background: #fff;
+    border:none;
+    border-radius: 5px;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+	  color: #000;
+}
+#txt_num{
+    background: #8fabda;
+    float:left;
+    border:none;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+    margin-left: -10px;
+    margin-right:18px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+
+}
+#captcha_col{
+    /* background: #c9c5c5;*/
+     width: 60px;
+    height: 30px;
+	font-size: 13px;
+    text-align: left;
+	color: #000;
+	border:1px solid #333;
+	padding:0 5px;
+}
+#captcha_num{
+    background: #fff;
+    height: 30px;
+
+}
+
+
+.btn{
+width: 108px;
+height: 32px;
+color: white !important;
+font-weight: bold;
+border: none;
+font-family: Arial;
+font-size: 15px;
+background: url(/sarangtogel/images/button_bg.png) center no-repeat;
+margin-left: -15px;
+}
+
+.btn_disable{
+  width: 108px;
+  height: 32px;
+  color: #222222;
+  font-weight: bold;
+  border: none;
+  font-family: Arial;
+  font-size: 15px;
+  background: url(/sarangtogel/images/button_bg.png) center no-repeat;
+  margin-left: -15px;
+}
+
+
+#info{
+color:#f9bc2a;
+display: table;
+width: 100%;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+margin-top:0px;
+}
+
+#info span{
+vertical-align: top;
+vertical-align: super;
+color: #f9bc2a;
+}
+
+.runningText{
+width: 100%;
+margin-top:10px;
+margin-bottom:10px;
+background: transparent;
+color: #fff;
+font-family: Time New Roman;
+font-size:14px;
+font-style:italic;
+border-radius: 0px;
+}
+
+#info a{
+margin: 0 5px;
+vertical-align: top;
+color: #f9bc2a;
+}
+
+#info a img{
+vertical-align: top;
+margin-top: 3px;
+color: #000;
+}
+
+.pull-right{
+float:right;
+padding-top:10px;
+}
+
+.pull-left{
+float:left;
+}
+
+#header1 #menu1, #footer ul{
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+.bg_resultwrap{
+	float:left;
+	width:315px;
+background:#213869;border:1px solid #fff;padding:5px;-webkit-box-shadow: 0px 0px 5px 0px #555;;
+-moz-box-shadow:    0px 0px 5px 0px #555;
+box-shadow:         0px 0px 5px 0px #555;
+}
+
+.box_productwrap{
+width:100%;
+margin-top: 20px;
+}
+.box_pasaran{
+	float:right;
+	width:650px;
+background: #fff;
+border: 0px solid #ff0000;
+padding:0px;
+}
+
+
+.box{
+	display: inline-block;
+	border:0px solid blue;
+
+}
+
+.box1{
+	display: inline-block;
+	border:0px solid blue;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+
+.box2{
+	display: inline-block;
+	border:0px solid blue;
+  margin:10px 15px 10px 12px;
+
+}
+
+.box>.box-container{
+background: #262626;
+border:0px solid red;
+	margin-bottom:5px;
+}
+.box1>.box-container{
+background: #262626;
+box-shadow: 2px 2px 1px #000;
+}
+.box2>.box-container{
+background: #262626;
+box-shadow: 2px 2px 1px #000;
+}
+
+
+.box>.box-container>.header{
+background: #fbcf1d;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+color: #000;
+}
+
+.box.result{
+
+width: 100%;
+height: 100%;
+border:0px solid red;
+
+}
+
+.box.img{
+
+margin-left:10px;
+margin-bottom: 10px;
+float:left;
+background:#c2d2fc;border:1px solid #fff;
+padding:4px;
+-webkit-box-shadow: 0px 0px 5px 0px #555;;
+-moz-box-shadow:    0px 0px 5px 0px #555;
+box-shadow:         0px 0px 5px 0px #555
+}
+
+.box.img img{
+width: 303px;
+	float:left;
+}
+
+.box2.img img{
+width: 470px;
+	float:left;
+}
+
+.box1.img img{
+width: 940px;
+	float:left;
+}
+
+.box.imgright{
+margin-bottom: 3px;
+float:left;
+background:#c2d2fc;border:1px solid #fff;padding:4px;-webkit-box-shadow: 0px 0px 5px 0px #555;;
+-moz-box-shadow:    0px 0px 5px 0px #555;
+box-shadow:         0px 0px 5px 0px #555
+}
+.box.imgright img{
+width: 223px;
+	float:right;
+
+}
+
+.result-img{
+vertical-align: top;
+height: 505px;
+}
+
+.box.result .box-container .body{
+position: relative;
+
+}
+
+.box.result .box-container .body>div{
+height: 475px;
+width: 344px;
+position: absolute;
+font-size: 1.3em;
+}
+
+.box.result .box-container .body>div.result_1{
+background: url(/sarangtogel/images/result-bg.png) center center no-repeat;
+}
+
+.box.result .box-container .body>div.result_2{
+background: url(/sarangtogel/images/result-bg1.png) center center no-repeat;
+}
+
+.box.result .box-container .body>div.result_3{
+background: url(/sarangtogel/images/result-bg2.png) center center no-repeat;
+}
+
+.box.result .box-container .body>div.result_4{
+background: url(/sarangtogel/images/result-bg3.png) center center no-repeat;
+}
+
+.box.result .box-container .body>div > div{
+text-align: center;
+position: absolute;
+margin-left: 70px;
+}
+
+.box.result .box-container .body>div > div > span{
+display: table-cell;
+width: 50px; color: #000;
+font-weight: bold;
+}
+
+.box.result .box-container .body>div > div:first-child{margin-top: 167px;
+}
+
+.box.result .box-container .body>div > div:last-child{
+margin-top: 415px;
+margin-left: 68px;
+}
+
+.box.result .box-container .body>div > div:last-child > span{
+width: 51px;
+}
+
+
+#footer1{
+width: 100%;
+min-width: 1000px;
+height: 36px;
+}
+
+#footer1 ul{
+float: left;
+margin-left:-50px;
+}
+
+#footer1 ul li{
+display: inline-block;
+border-right: 0px solid #fff;
+}
+
+#footer1 ul li:last-child{
+border: none;
+}
+
+#footer1 ul li a{
+padding: 0 10px;
+}
+#footer1 ul li a:hover{
+color:#7a96e7;
+}
+
+
+
+
+.form_label{
+color:#000;
+}
+
+#submit, #btnsubmit{
+color:black;
+}
+
+.white tr td{
+color:black;
+}
+
+
+.isi{
+color:black;
+}
+/*-------------------- Logined ------------------------*/
+.content-wraper{
+background: #fff;
+margin:0px 0px;
+border:0px solid red;
+padding: 10px;
+}
+
+.content-body{
+outline: 0px solid #0d0c0c;
+}
+
+
+.content-body thead tr td{
+font-size:13px;
+color: #000;
+padding: 7px 5px;
+margin-bottom: 5px;
+}
+
+
+.content-header h3, .content-header h4 {
+color:#3059c0;
+margin: 0;
+text-align: center;
+font-weight:bold;
+font-size:20px;
+text-shadow: 1px 1px 1px #555;
+}
+
+.content-header-tall{
+color: #000;
+padding: 22px 25px;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI3JSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY4JSIgc3RvcC1jb2xvcj0iI2ZlYzMwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWMzMDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background: -moz-linear-gradient(top,  #f3e84f 1%, #f3e84f 27%, #fec305 68%, #fec305 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f3e84f), color-stop(27%,#f3e84f), color-stop(68%,#fec305), color-stop(100%,#fec305));background: -webkit-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -o-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -ms-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: linear-gradient(to bottom,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e84f', endColorstr='#fec305',GradientType=0 );background: rgb(194,210,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(194,210,252,1) 0%, rgba(237,241,254,1) 80%, rgba(219,227,248,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(194,210,252,1) 0%,rgba(237,241,254,1) 80%,rgba(219,227,248,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(194,210,252,1) 0%,rgba(237,241,254,1) 80%,rgba(219,227,248,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d2fc', endColorstr='#dbe3f8',GradientType=0 ); /* IE6-9 */
+}
+
+.content-header{
+color: #fff;
+padding: 7px 5px;
+background-color:none;
+}
+.content-header2 h5{
+color:#fff;
+margin: 0;
+text-align: center;
+font-weight:bold;
+font-size:20px;
+text-shadow: 1px 1px 1px #555;
+}
+.content-header2 {
+color: #000;
+padding: 5px 5px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+7,1e5799+100,1e5799+101 */
+background: rgb(125,185,232); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(125,185,232,1) 7%, rgba(30,87,153,1) 100%, rgba(30,87,153,1) 101%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,185,232,1) 7%,rgba(30,87,153,1) 100%,rgba(30,87,153,1) 101%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,185,232,1) 7%,rgba(30,87,153,1) 100%,rgba(30,87,153,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+}
+.contactboxwrap {border:0px solid green;margin:0 auto;width:100%;background:#fff;height:60px;}
+.contactbox {border:0px solid red;float:left;background:#fff; margin:10px;text-align:center;padding-left:85px;}
+.contactboximg{border:0px solid red;float:left;padding-right:10px;}
+.contactboxtext{border:0px solid red;float:right;font-size:13px; color:#000;font-weight:bold;line-height:40px;}
+
+/* BankBox*/
+.bankboxwrap {padding:5px;border:0px solid green;margin:0 auto;background:#fff;height:70px;background:#c2d2fc;border:1px solid #fff;-webkit-box-shadow: 0px 0px 5px 0px #555;;
+-moz-box-shadow:    0px 0px 5px 0px #555;
+box-shadow:         0px 0px 5px 0px #555;}
+.bankbox {border:1px solid #2a4696;float:left;
+background: -moz-linear-gradient(top,  rgba(89,118,184,1) 0%, rgba(55,82,158,1) 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(89,118,184,1) 0%,rgba(55,82,158,1) 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(89,118,184,1) 0%,rgba(55,82,158,1) 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5976b8', endColorstr='#37529e',GradientType=0 ); /* IE6-9 */
+text-align:center;padding:10px 10px 10px 100px; width:875px;}
+.bankboximg{border:0px solid red;float:left;padding-right:10px;max-width: 100%;
+    height: auto;
+    width: auto;}
+.bankboximg img{width:120px;padding-right:40px;}
+.contactboxtext{border:0px solid red;float:right;font-size:13px; color:#000;font-weight:bold;line-height:40px;}
+
+
+/* sitemap*/
+.bg_sitemapwrap{margin-top:0px;padding:0px;border:0px solid green;margin-bottom:30px;background:#142053;border:0px solid #fff;-webkit-box-shadow: 0px 0px 5px 0px #aeb7e0;;
+-moz-box-shadow:    0px 0px 5px 0px #aeb7e0;
+box-shadow:         0px 0px 5px 0px #aeb7e0;height:270px;}
+
+
+}.LFlinks{width:998px;*padding-left:0;}.FLinksImg{width:30px;height:8px;float:left;}.FlinksCL{background-position:1px -202px;}.FlinksCR{background-position:-50px -204px;}.FlinksCBL{background-position:left -232px;}.FlinksCBR{background-position:-50px -232px;}.FLinksL{background-position:left -260px;width:8px;height:260px;}.FLinksR{background-position:-50px -260px;width:8px;height:260px;}.FLinksImgTB{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat;width:938px;height:8px;float:left;}.FlinksT{background-position:-149px -730px;}.FlinksB{background-position:-149px -753px;}.FLinksC{width:982px;height:250px;float:left;background-color:transparent;padding-top:0px;}.FLinksLH{width:187px;height:111px;float:left;margin:0 0px 1px 10px;display:inline;text-align:left;border-right:#505d8d 0px dotted;}.FLinksLHB{width:187px;height:95px;float:left;margin:0 0px 1px 10px;display:inline;text-align:left;border-right:#505d8d 0px dotted;padding-top:20px;}.FLinksLH li,.FLinksLHB li{border-right:1px solid #142053; padding:0 5px 0 15px;color:#d7d7d7;}.FLinksLast li,.FLinksLastB li{border-right:1px solid #142053;background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -600px -810px;padding-left:15px;color:#d7d7d7;}.FLinksLH li a,.FLinksLHB li a{border-right:1px solid #142053;color:#d7d7d7;text-decoration:none;line-height:14px;border-right:0px solid #142053;}.FLinksLH li a:hover,.FLinksLHB li a:hover{border-right:1px solid #142053;color:#d7d7d7;text-decoration:underline;}.FLinksLast{width:180px;height:99px;float:left;margin:0 0px 1px 10px;display:inline;text-align:left;}.FLinksLastB{width:180px;height:89px;float:left;margin:20px 0px 1px 10px;display:inline;text-align:left;}.FLinksLast li a,.FLinksLastB li a{color:#d7d7d7;text-decoration:none;line-height:13px;font-weight:bold;border-right:0px solid #142053;border-right:1px solid #142053;}.FLinksLast li a:hover,.FLinksLastB li a:hover{color:#d7d7d7;text-decoration:underline;border-right:0px solid #142053;}.FLinksLHead{font-size:11px; font-weight:bolder;color:#596fce;padding-left:20px;height:16px;margin-bottom:3px;}.FSportIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -4px -782px;}.FCasinoIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -4px -815px;}.FRaceIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -4px -850px;}.FMobileIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -199px -783px;}.FAboutIcon{background:url(/sarangtogel/images/icon.png) no-repeat -201px -816px;}.FHelpIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -201px -848px;}.FRulesIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -402px -783px;}.FLeaguesIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -402px -815px;}.FLearnIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -402px -849px;}.FNewsIcon{background:url(/theme/pokerbola/imgs/landing.png?20140218) no-repeat -596px -783px;}.RGA{width:60px;height:22px;float:left;margin:0 5px 0px 0px;}
+
+
+
+
+.FIcon img {border:0px solid green; width:12px; float:left;margin-left:-15px;padding-right:5px;padding-top:3px;}
+#pasaran thead tr td{
+font-size:15px;
+color: #000;
+padding: 7px 5px;
+margin-bottom: 5px;
+background: #f3e84f;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI3JSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY4JSIgc3RvcC1jb2xvcj0iI2ZlYzMwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWMzMDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background: -moz-linear-gradient(top,  #f3e84f 1%, #f3e84f 27%, #fec305 68%, #fec305 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f3e84f), color-stop(27%,#f3e84f), color-stop(68%,#fec305), color-stop(100%,#fec305));background: -webkit-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -o-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -ms-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: linear-gradient(to bottom,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e84f', endColorstr='#fec305',GradientType=0 );
+}
+
+.content-head-btn a.content-header-tall{
+border-radius: 5px;
+font-weight: 500;
+width: 80px;
+text-align: center;
+color:black;
+font-weight:bold;
+}
+
+.content-head-btn a.content-header{
+border-radius: 5px;
+font-weight: 500;
+width: 80px;
+text-align: center;
+color:black;
+font-weight:bold;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI3JSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY4JSIgc3RvcC1jb2xvcj0iI2ZlYzMwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWMzMDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background: -moz-linear-gradient(top,  #f3e84f 1%, #f3e84f 27%, #fec305 68%, #fec305 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f3e84f), color-stop(27%,#f3e84f), color-stop(68%,#fec305), color-stop(100%,#fec305));background: -webkit-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -o-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -ms-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: linear-gradient(to bottom,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e84f', endColorstr='#fec305',GradientType=0 );background: rgb(194,210,252);
+background: -moz-linear-gradient(top,  rgba(194,210,252,1) 0%, rgba(237,241,254,1) 80%, rgba(219,227,248,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(194,210,252,1) 0%,rgba(237,241,254,1) 80%,rgba(219,227,248,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(194,210,252,1) 0%,rgba(237,241,254,1) 80%,rgba(219,227,248,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d2fc', endColorstr='#dbe3f8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.content-head-btn a.content-header:nth-child(n){
+float: left;}
+
+.content-head-btn a.content-header:nth-child(2n){
+float: right;
+}
+
+#contact-left{
+width: 150px;
+margin: auto;
+}
+
+#contact-left a{
+margin-bottom: 7px
+};
+
+#contact-left a:nth-child(n){
+float: left;
+}
+
+#contact-left a:nth-child(2n){
+float: right;
+}
+
+.clearfix{
+clear:both;
+}
+.bg_bankwrap{width:600px;margin:0 auto;}
+.bg_transferwrap{width:600px;margin:0 auto;}
+.table-bordered {
+background:#fff;border:0px solid #fff;-webkit-box-shadow: 0px 0px 5px 0px #aeb7e0;;
+-moz-box-shadow:    0px 0px 5px 0px #aeb7e0;
+  border: 1px solid #dddddd;
+  width:100%;
+}
+.table-bordered > thead > tr > th {
+  border: 1px solid #dddddd;
+  padding:10px;
+}
+.table-bordered > td {
+  border: 1px solid #dddddd;
+  padding:10px;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.table-bordered .bank {
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+}
+.table-bordered .status {
+	font-size:16px;
+	font-weight:normal;
+}
+.table-home{
+width: 100%;
+border-collapse: collapse;
+font-size: 0.9em;
+}
+
+.table-home th{
+border: 1px solid #000;
+border-left: 1px solid #000;
+}
+
+.table-home tr th:first-child{
+border-left: none;
+}
+
+.table-home td{
+border: 1px solid #36b5f7;
+text-align: center;
+}
+
+.table-home tr td:first-child{
+color: #36b5f7;
+font-weight: bold;
+}
+
+.table-home tr td:nth-child(2){
+text-transform: uppercase;
+}
+
+.post{
+padding: 10px 5px;
+}
+
+.post .post-header{
+color: #36b5f7;
+font-size: 1.1em;
+text-transform: uppercase;
+}
+
+#header1 #menu1{
+text-transform: uppercase;
+margin-bottom:10px;
+margin-top:50px;
+float:right
+
+}
+
+#header1 #menu1 a{
+font-size: 1.2em;
+padding: 8px 15px;
+
+}
+#header1 #menu1 a:hover{
+border-radius: 5px;
+background: #f9d62a;
+color: #000
+}
+
+#payment_channel{
+padding-top:50px;
+}
+
+.cursor_point{
+cursor:pointer;
+}
+
+#agreement{
+width:500px;
+
+}
+
+.slogin_successful{
+    color: #fff;
+    padding: 14px 50px;
+    text-align: center;
+
+}
+input{color:black !important}
+
+.wraper{
+color:white;
+}
+
+#sub-topmenu td a{
+color:#CCCCCC;
+}
+
+#sub-topmenu td a:hover{
+color:#333333;
+}
+
+.form_row td,.form-sub tr td{
+font-size:15px;
+
+}
+.form-sub .col-header{
+	color: #000000;
+}
+.form .col-header{
+	color: #000000;
+}
+
+.dpopupWraper
+	{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.8);
+		display: table;
+		text-align: center;
+		z-index: 999999999;
+		position: fixed;
+		top:0;left:0;
+	}
+
+
+#deposit_box tr td
+{
+
+	color:#fff;
+	text-align:center;
+	border-radius:1px;
+	box-shadow: 0px 0px 1px #000;
+	font-size:9px;
+
+}
+
+.deposit-header h3{
+color:#000;
+margin: 0;
+text-align: center;
+font-weight:bold;
+font-size:19px;
+text-shadow: 1px 1px 1px #000;
+
+}
+
+
+
+.deposit-header{
+color: #000;
+background: #f3e84f;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI3JSIgc3RvcC1jb2xvcj0iI2YzZTg0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY4JSIgc3RvcC1jb2xvcj0iI2ZlYzMwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWMzMDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background: -moz-linear-gradient(top,  #f3e84f 1%, #f3e84f 27%, #fec305 68%, #fec305 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f3e84f), color-stop(27%,#f3e84f), color-stop(68%,#fec305), color-stop(100%,#fec305));background: -webkit-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -o-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: -ms-linear-gradient(top,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);background: linear-gradient(to bottom,  #f3e84f 1%,#f3e84f 27%,#fec305 68%,#fec305 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e84f', endColorstr='#fec305',GradientType=0 );
+}
+
+.form-sub .col-header{
+	color: #000000;
+}
+.form .col-header{
+	color: #000000;
+}
+
+
+.table-referral{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 15px;
+	color: #fff;
+}
+
+.table-referral th{
+	text-weight: bold;
+	color: #000;
+	padding: 5px;
+
+}
+
+.table-referral tr th:first-child{
+	border-left: none;
+}
+
+.table-referral td{
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 5px;
+	color: #000000;
+}
+
+.table-referral tr td:first-child{
+	color: #000000;
+	font-weight: bold;
+}
+
+.table-referral tr td:nth-child(2){
+	text-transform: uppercase;
+}
+
+
+
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+
+/* Inner */
+.popup-inner {
+
+	color: #fff;
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#000;
+    filter: alpha(opacity=50);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+  /* CSS3 */
+    font-size: 16px;
+}
+.pop-inner h2{
+	color: #fff;
+}
+
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+.popup td{
+font-size: 16px;
+}
+
+.active-country{
+	font-family: arial;
+	font-size:13px;
+	font-weight: 700;
+}
+
+/* -------------------------------- New ----------------------------------- */
+
+#content .header{border: 1px solid white;border-radius: 5px 5px 0 0;color:white;font-size:20px;padding:10px;margin-top:10px;background:none repeat scroll 0 0 rgba(0,0,0,0.4);border-bottom: 1px #999999 solid;}
+#content .body{border: 1px solid white;border-radius: 0 0 5px 5px;color:white;border-top:none;padding:10px;min-height:150px;margin-bottom:10px;background:none repeat scroll 0 0 rgba(0,0,0, 0.4);}
+#space{height: 500px;}
+
+@import url(uibase.css);
+@import url(menu.css);
+
+
+*{padding: 0px;margin: 0px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.wrapper{width: 1000px !important;margin: 0 auto;}
+
+.clear{clear: both;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+
+#username{
+  background: url(/sarangtogel/images/icons/user.png) no-repeat scroll 105px 7px;
+  background-color: white;
+  width: 123px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: Tahoma;
+  margin-right:5px;
+}
+
+#password{
+  background: url(/sarangtogel/images/icons/lock.png) no-repeat scroll 105px 7px;
+  background-color: white;
+  width: 123px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: Tahoma;
+  margin-right:5px;
+}
+
+#bank{position: fixed;top: 220px;right: 5px;}
+#header{height: auto;}
+p{color: white;margin-bottom: 0px !important;}
+
+form.my-form{width: 625px;height: 20px;margin-top: 15px;}
+#form>li{display: inline-block;}
+#form>li:nth-child(3){}
+#form>li>input[name="txtCode"]{width: 63px;height: 28px;border: none;border-radius: 5px;font-size: 11px;font-family: Arial;color: black;}
+#form>li>img[name="icon"]{position: relative;left: 120px;z-index: 999;vertical-align: middle;}
+#form>li>img[name="code"]{position: relative;left: -15px;vertical-align: middle;}
+
+#marqueehead{width: 100%;color: white;font-family: Arial;font-size: 13px;font-style: italic;}
+
+#content{height: auto;}
+#slideshow{width: 1000px;height: 324px;}
+#border-up{margin-left: 150px;z-index: 999;position: relative; margin-top:20px;}
+#border-down{margin-left: 150px;z-index: 999;position: relative;margin-top: -20px;}
+
+#game{width: 1005px;margin-top: -20px;}
+#togel{width: 201px;height: 215px;background: url(/sarangtogel/images/togel.jpg) center no-repeat;color: white;line-height: 45px;text-align: center;font-family: inherit;font-size: 19px;}
+#poker{width: 201px;height: 215px;background: url(/sarangtogel/images/poker.jpg) center no-repeat;color: white;line-height: 45px;text-align: center;font-family: inherit;font-size: 19px;}
+#sportbook{width: 201px;height: 215px;background: url(/sarangtogel/images/sportbook.jpg) center no-repeat;color: white;line-height: 45px;text-align: center;font-family: inherit;font-size: 19px;}
+#slotgame{width: 201px;height: 215px;background: url(/sarangtogel/images/slotgame.jpg) center no-repeat;color: white;line-height: 45px;text-align: center;font-family: inherit;font-size: 19px;}
+#sabung{width: 201px;height: 215px;background: url(/sarangtogel/images/sabung.jpg) center no-repeat;color: white;line-height: 45px;text-align: center;font-family: inherit;font-size: 19px;}
+
+#togel:hover{text-decoration: none;color: gray;}
+#poker:hover{text-decoration: none;color: gray;}
+#sportbook:hover{text-decoration: none;color: gray;}
+#slotgame:hover{text-decoration: none;color: gray;}
+#sabung:hover{text-decoration: none;color: gray;}
+
+#product{}
+#product-bg{width: 159px;height: 182px;background: url(/sarangtogel/images/product_bg.png) center no-repeat;margin-left: 9px;}
+#product-bg:first-child{margin-left: 0px;}
+#product-header{text-align: center;margin-left: 50px;margin-top: 20px;font-family: MYRIADPROREGULAR;font-size: 15px;}
+#product-header-short{margin-left: 40px;margin-top: 20px;font-family: MYRIADPROREGULAR;font-size: 13px;}
+#product-pic-head{margin-left: 35px;margin-top: 5px;}
+#product-pic{margin-left: 45px;margin-top: 20px;}
+#product-pic-big{margin-left: 35px;margin-top: 35px;}
+#product-pic-long{margin-left: 5px;margin-top: 40px;}
+#product-pic-short{margin-left: 50px;}
+#date{text-align: center;margin-left: 25px;font-family: inherit;font-size: 15px;}
+#number-bg{width: 132px;height: 33px;background: url(/sarangtogel/images/number_bg.png) center no-repeat;color: white;font-family: MYRIADPROREGULAR;font-size: 33px;letter-spacing: 15px;padding-left: 10px;line-height: 35px;margin-left: 15px;}
+
+#info-web{width: 100%;margin-top: 10px;}
+#info-web-header{font-family: inherit;font-size: 38px;text-align: center;letter-spacing: 1px;}
+#info-web-headerh1{font-family: inherit;font-size: 28px;text-align: center;letter-spacing: 1px;}
+#info-web-headerh2{font-family: inherit;font-size: 24px;text-align: center;letter-spacing: 1px;}
+#blue{color: #008FF6;}
+#info-web-text{width: 980px;text-align: center;margin-top: 10px;padding-bottom: 20px;font-family: inherit;font-size: 16px;text-align: center;margin-left: 10px;}
+
+#copyright{margin-left: 350px;font-family: inherit;font-size: 14px;}
+
+.contact{
+    left: -125px;
+    color: #fff;
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    position: fixed;
+    z-index: 101;
+	margin-top: 350px;
+}
+.contact li{
+    height: 50px;
+    cursor: pointer;
+    display: block;
+    text-align: right;
+}
+.contact li a{
+    line-height: 43px;
+    color: #fff;
+    padding-right: 10px;
+    font-family:  inherit;;
+    font-size: 15px;
+}
+.contact .header img{
+   width: 39px;
+   height: 39px;
+}
+.contact .header, .contact .contents{
+    background-repeat: no-repeat;
+    height: 57px;
+    display: inline-block;
+    float: left;
+    border: 0px;
+}
+.contact .header{
+    width: 64px;
+}
+.contact .contents{
+    background: #464646;
+    width: 175px;
+    height: 47px;
+
+    background-repeat: repeat-x;
+    text-align: center;
+}
+#green{background: url(/sarangtogel/images/green_bg.png) center no-repeat;}
+#red{background: url(/sarangtogel/images/thick_red_bg.png) center no-repeat;}
+#violet{background: url(/sarangtogel/images/violet_bg.png) center no-repeat;}
+#lightblue{background: url(/sarangtogel/images/lightblue_bg.png) center no-repeat;}
+.contact .contents img{float: right;vertical-align:middle;margin-right: 3px;margin-top: 3px;}
+
+#login{
+  width: 625px;height: 20px;margin-top: 15px;float:right;
+}
+
+::-webkit-input-placeholder { font-style: normal; padding-left:5px; }
+
+.accordion .acWrapper > h3 { color: #ffffff !important; margin: 10px 0px; font-weight: bold; }
+.accordion .acWrapper { border: 2px solid #ffffff !important; padding: 10px 20px; margin: 3px; }
+.accordion .acWrapper .acDesc, .accordion .acWrapper .acDesc ul li { color: #ffffff !important; line-height: 22px; }
+.accordion .acWrapper {background: black;}
+
+
+.bg_wrap2{
+	min-height:600px;
+	padding:5px;border:0px solid red;
+}
+

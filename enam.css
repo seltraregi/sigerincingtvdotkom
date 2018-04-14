@@ -1,0 +1,15 @@
+#cssmenu{margin-top: 10px;}
+#cssmenu>li{width: 78px;display: inline-block;text-align: center;}
+ul{margin-bottom: 0px !important;}
+//#cssmenu>li:first-child{width:80px;text-align: left;}
+//#cssmenu>li:nth-child(2){width: 80px;text-align: left;}
+//#cssmenu>li:nth-child(3){text-align: left;}
+//#cssmenu>li:nth-child(3){width: 120px;}
+//#cssmenu>li:nth-child(4){width: 120px;}
+#cssmenu>li:nth-child(6){width: 95px;}
+#cssmenu>li:nth-child(7){width: 95px;}
+//#cssmenu>li:last-child{width: 80px;text-align: right;}
+
+#cssmenu>li>a{color: #BD9E6E;font-size: 12px;font-family: inherit;}
+#cssmenu>li:hover{color: white;background: url(/sarangtogel/images/hover.png) center no-repeat;z-index: 9999;}
+#cssmenu>li:hover>a{text-decoration: none;}
